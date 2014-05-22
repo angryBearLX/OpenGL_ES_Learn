@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6E7808FC-E215-4722-BCA3-87ACD81DEDF1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OpenGLES_00</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1A38FB35-A5CF-430C-8E01-035225DAB3FA</key>
+		<string>https://github.com/angryBearLX/OpenGL_ES_Learn.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OpenGLES_00/OpenGLES_00.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1A38FB35-A5CF-430C-8E01-035225DAB3FA</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/angryBearLX/OpenGL_ES_Learn.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1A38FB35-A5CF-430C-8E01-035225DAB3FA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1A38FB35-A5CF-430C-8E01-035225DAB3FA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OpenGL_ES_Learn</string>
+		</dict>
+	</array>
+</dict>
+</plist>
