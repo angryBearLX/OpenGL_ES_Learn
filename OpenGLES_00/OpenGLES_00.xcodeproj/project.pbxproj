@@ -21,6 +21,13 @@
 		13843AFD192DADD2001A1553 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13843ADF192DADD2001A1553 /* UIKit.framework */; };
 		13843B05192DADD2001A1553 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13843B03192DADD2001A1553 /* InfoPlist.strings */; };
 		13843B07192DADD2001A1553 /* OpenGLES_00Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13843B06192DADD2001A1553 /* OpenGLES_00Tests.m */; };
+		13843B12192DCDF4001A1553 /* OpenGLVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 13843B11192DCDF4001A1553 /* OpenGLVIew.m */; };
+		13843B14192DCE33001A1553 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13843B13192DCE33001A1553 /* OpenGLES.framework */; };
+		13843B16192DCE3B001A1553 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13843B15192DCE3B001A1553 /* QuartzCore.framework */; };
+		13843B18192DE5F3001A1553 /* VertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 13843B17192DE5F3001A1553 /* VertexShader.glsl */; };
+		13843B1A192DE604001A1553 /* FragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 13843B19192DE604001A1553 /* FragmentShader.glsl */; };
+		13843B1C192DF4A5001A1553 /* earth_light.png in Resources */ = {isa = PBXBuildFile; fileRef = 13843B1B192DF4A5001A1553 /* earth_light.png */; };
+		13843B21192DFB7A001A1553 /* Matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 13843B20192DFB7A001A1553 /* Matrix.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,15 @@
 		13843B02192DADD2001A1553 /* OpenGLES_00Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenGLES_00Tests-Info.plist"; sourceTree = "<group>"; };
 		13843B04192DADD2001A1553 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		13843B06192DADD2001A1553 /* OpenGLES_00Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLES_00Tests.m; sourceTree = "<group>"; };
+		13843B10192DCDF4001A1553 /* OpenGLVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLVIew.h; sourceTree = "<group>"; };
+		13843B11192DCDF4001A1553 /* OpenGLVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLVIew.m; sourceTree = "<group>"; };
+		13843B13192DCE33001A1553 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		13843B15192DCE3B001A1553 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		13843B17192DE5F3001A1553 /* VertexShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VertexShader.glsl; sourceTree = "<group>"; };
+		13843B19192DE604001A1553 /* FragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FragmentShader.glsl; sourceTree = "<group>"; };
+		13843B1B192DF4A5001A1553 /* earth_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth_light.png; sourceTree = "<group>"; };
+		13843B1F192DFB66001A1553 /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix.h; sourceTree = "<group>"; };
+		13843B20192DFB7A001A1553 /* Matrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Matrix.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13843B16192DCE3B001A1553 /* QuartzCore.framework in Frameworks */,
+				13843B14192DCE33001A1553 /* OpenGLES.framework in Frameworks */,
 				13843ADE192DADD2001A1553 /* CoreGraphics.framework in Frameworks */,
 				13843AE0192DADD2001A1553 /* UIKit.framework in Frameworks */,
 				13843ADC192DADD2001A1553 /* Foundation.framework in Frameworks */,
@@ -101,6 +119,8 @@
 		13843ADA192DADD2001A1553 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				13843B15192DCE3B001A1553 /* QuartzCore.framework */,
+				13843B13192DCE33001A1553 /* OpenGLES.framework */,
 				13843ADB192DADD2001A1553 /* Foundation.framework */,
 				13843ADD192DADD2001A1553 /* CoreGraphics.framework */,
 				13843ADF192DADD2001A1553 /* UIKit.framework */,
@@ -117,7 +137,14 @@
 				13843AED192DADD2001A1553 /* Main.storyboard */,
 				13843AF0192DADD2001A1553 /* ViewController.h */,
 				13843AF1192DADD2001A1553 /* ViewController.m */,
+				13843B10192DCDF4001A1553 /* OpenGLVIew.h */,
+				13843B11192DCDF4001A1553 /* OpenGLVIew.m */,
+				13843B1F192DFB66001A1553 /* Matrix.h */,
+				13843B20192DFB7A001A1553 /* Matrix.c */,
+				13843B17192DE5F3001A1553 /* VertexShader.glsl */,
+				13843B19192DE604001A1553 /* FragmentShader.glsl */,
 				13843AF3192DADD2001A1553 /* Images.xcassets */,
+				13843B1B192DF4A5001A1553 /* earth_light.png */,
 				13843AE2192DADD2001A1553 /* Supporting Files */,
 			);
 			path = OpenGLES_00;
@@ -229,8 +256,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				13843AF4192DADD2001A1553 /* Images.xcassets in Resources */,
+				13843B1C192DF4A5001A1553 /* earth_light.png in Resources */,
 				13843AE6192DADD2001A1553 /* InfoPlist.strings in Resources */,
+				13843B18192DE5F3001A1553 /* VertexShader.glsl in Resources */,
 				13843AEF192DADD2001A1553 /* Main.storyboard in Resources */,
+				13843B1A192DE604001A1553 /* FragmentShader.glsl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +280,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				13843AF2192DADD2001A1553 /* ViewController.m in Sources */,
+				13843B21192DFB7A001A1553 /* Matrix.c in Sources */,
 				13843AEC192DADD2001A1553 /* AppDelegate.m in Sources */,
 				13843AE8192DADD2001A1553 /* main.m in Sources */,
+				13843B12192DCDF4001A1553 /* OpenGLVIew.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +488,7 @@
 				13843B0C192DADD2001A1553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13843B0D192DADD2001A1553 /* Build configuration list for PBXNativeTarget "OpenGLES_00Tests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +497,7 @@
 				13843B0F192DADD2001A1553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
